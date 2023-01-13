@@ -4,7 +4,7 @@ import userEvent from '@testing-library/user-event'
 import App from './App';
 
 test('hello world', () => {
-  expect(true).toBe(true);
+  expect(true).toBe(false);
 });
 
 test('renders Free dictionary title', () => {
